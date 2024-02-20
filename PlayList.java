@@ -106,7 +106,7 @@ class PlayList {
             return true;
         }
 
-        this.shiftElements(i, track);
+        this.shiftElements(i, track);// NICE!
         tracks[i] = track;
         size++;
         return true;
